@@ -23,7 +23,8 @@ function Header({ socials }: Props) {
             key={social._id}
             url={social.url}
             fgColor='gray'
-            bgColor='transparent'
+            bgColor='transparent' 
+            className="hover:scale-110"
           />
         ))}
 
